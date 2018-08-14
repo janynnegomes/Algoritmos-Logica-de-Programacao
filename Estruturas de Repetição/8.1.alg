@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função : Calcular a média aritmética de 4 números fornecidos pelo usuário armazenando em vetores.
-// Autor :
+algoritmo "MÃ©dia em vetores"
+// FunÃ§Ã£o : Calcular a mÃ©dia aritmÃ©tica de 4 nÃºmeros fornecidos pelo usuÃ¡rio armazenando em vetores.
+// Autor : Janynne Gomes
 // Data : 09/08/2018
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 
 numeros:vetor[0..3] de real
@@ -10,11 +10,11 @@ posicao:inteiro
 soma:real
 
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
 // Recebimento dos valores
 para posicao de 0 ate 3 faca
-     Escreva("Digite o nº ",posicao+1,": ")
+     Escreva("Digite o nÂº ",posicao+1,": ")
      Leia(numeros[posicao])
 fimpara
 
@@ -23,6 +23,6 @@ para posicao de 0 ate 3 faca
     soma <- soma + numeros[posicao]
 fimpara
 
-Escreval("Média:", soma/4)
+Escreval("MÃ©dia:", soma/4)
 
 fimalgoritmo
